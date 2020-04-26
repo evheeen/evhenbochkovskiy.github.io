@@ -1,0 +1,160 @@
+@media only screen and (max-width:1036px) {
+	.services .col-md-4 {
+		margin-bottom:40px;
+	}
+	
+	.subscribe button {
+		width:10%;
+	}
+
+	.contact input[type="submit"] {
+		width:20%;
+	}
+
+	.contact .error .name {
+		left:43.0%;
+	}
+}
+
+@media only screen and (max-width:756px) {
+	.subscribe input[type="email"] {
+		margin-bottom:10px;
+	}
+
+	.subscribe button, .subscribe input[type="email"] {
+		width:20%;
+	}
+
+	.google-map .phone, .google-map .email {
+		position:absolute;
+	}
+
+	.contact input[type="submit"] {
+		width:30%;
+	}
+
+	.google-map i.fa-map-marker  {
+		margin-left:-5px;
+	}
+
+	.contact .error .name {
+		left:42.5%;
+	}   
+
+	header {
+		padding-top:10px;
+	}
+
+	header p {
+		font-size:14px;
+	}
+
+	header h1 {
+		font-size:25px;
+		padding-top:1px;
+		margin-bottom:0px;
+	}
+
+	header .logo img {
+		width:20%;
+		height:auto;
+	}
+
+	.backstretch {
+		height:450px !important;
+	}
+
+	.backstretch img {
+		height:500px !important;
+	}
+
+	.mouse {
+		display:none;
+	}
+
+	.services {
+		padding-top:180px;
+	}
+}
+
+@media only screen and (max-width:540px) {
+	.contact input[type="submit"] {
+		width:40%;
+	}
+
+	.contact .error .name {
+		left:41.2%;
+	}
+
+	header {
+		padding-top:10px;
+	}
+
+	header p {
+		font-size:14px;
+	}
+
+	header h1 {
+		font-size:25px;
+		padding-top:1px;
+		margin-bottom:0px;
+	}
+
+	header .countdown {
+		font-size:2.3em;
+		line-height:50px;
+	}
+
+	header .countdown span {
+		line-height:5px;
+	}
+
+	header .logo img {
+		width:30%;
+		height:auto;
+	}
+
+	.backstretch {
+		height:510px !important;
+	}
+
+	.backstretch img {
+		height:530px !important;
+	}
+
+	.services {
+		padding-top:279px;
+	}	
+}
+
+@media only screen and (max-width:414px) {
+ 	.services {
+ 		padding-top:10px;
+ 	}
+	.gallery6{
+		flex-direction: column;
+	}
+	.video{
+		width: 100%;
+		height: 230px;
+	}
+	.gallery7{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media only screen and (max-width:320px) {
+	.services {
+ 		padding-top:180px;
+ 	}
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+	.subscribe {
+		background-attachment:scroll !important;
+		-webkit-background-size:cover;
+		background-position:center;
+	}
+}
